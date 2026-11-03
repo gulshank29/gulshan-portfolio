@@ -207,6 +207,11 @@ footer {
     border-top: 1px solid #26382b;
 }
 
+footer a {
+    color: #39ff88;
+    text-decoration: none;
+}
+
 /* Mobile Responsive */
 
 @media (max-width: 768px) {
@@ -371,10 +376,9 @@ footer {
     }
 
     .home-image img {
-    width: min(220px, 80vw);
-    height: min(220px, 80vw);
-    object-fit: cover;
-    border-radius: 50%;
-}
+        width: 220px;
+        max-width: 80%;
+        height: auto;
+    }
 
 }
