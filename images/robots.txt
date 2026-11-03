@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gulshank29.github.io/gulshan-portfolio/sitemap.xml
